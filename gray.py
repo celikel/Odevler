@@ -16,7 +16,6 @@ liste.reverse()
 
 gray_liste.append(liste[0])
 
-
 for j in range(0, len(liste)-1):
    if liste[j] == liste[j+1]:
        gray_liste.append('0')
@@ -25,4 +24,3 @@ for j in range(0, len(liste)-1):
 
 for oge in gray_liste:
      sys.stdout.write(str(oge)+"")
-    
